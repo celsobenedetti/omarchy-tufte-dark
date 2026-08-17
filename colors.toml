@@ -1,36 +1,34 @@
 # tufte — dark variant (inverted canonical)
-# Near-black paper, cream #fffcf0 ink, a dark vermillion for errors.
-# Background/foreground are the canonical paper and ink swapped.
+# Near-black paper, cream ink, a dark vermillion for errors.
+# Syntax/UI hues ride a single luminance ramp instead of full color —
+# vermillion (red) is the only saturated color, reserved for errors/accent.
 
-# UI Colors (extended)
+mode = "dark"
+
 accent = "#f57f82"
-cursor = "#d6d6d6"
+selection = "#6f8788"
+muted = "#303030"
 
-# Primary colors
-foreground = "#fffcf0"
 background = "#1a1006"
+dark_background = "#130c04"
+darker_background = "#0e0803"
+lighter_background = "#261809"
 
-# Selection colors
-selection_foreground = "#fffcf0"
-selection_background = "#6f8788"
+foreground = "#fffcf0"
+dark_foreground = "#857b6f"
+light_foreground = "#c3c3c3"
+bright_foreground = "#d6d6d6"
 
-# Normal colors (ANSI 0-7)
-# 7-tier luminance ramp (T1 faint chrome, near bg -> T7 foreground) + accent on color1
-color0 = "#303030"   # T1 faint chrome (near bg)
-color1 = "#f57f82"   # vermillion — errors only
-color2 = "#857b6f"   # T2 comments
-color3 = "#a2a2a2"   # T3 operators, punctuation
-color4 = "#b5b5b5"   # T4 strings, numbers
-color5 = "#c3c3c3"   # T5 variables, properties
-color6 = "#d6d6d6"   # T6 keywords, types
-color7 = "#fffcf0"   # T7 cream foreground
+red = "#f57f82"
+green = "#857b6f"
+yellow = "#a2a2a2"
+blue = "#b5b5b5"
+magenta = "#c3c3c3"
+cyan = "#d6d6d6"
 
-# Bright colors (ANSI 8-15)
-color8 = "#8c8273"
-color9 = "#f57f82"
-color10 = "#857b6f"
-color11 = "#a2a2a2"
-color12 = "#b5b5b5"
-color13 = "#c3c3c3"
-color14 = "#d6d6d6"
-color15 = "#fffcf0"
+bright_red = "#f57f82"
+bright_green = "#857b6f"
+bright_yellow = "#a2a2a2"
+bright_blue = "#b5b5b5"
+bright_magenta = "#c3c3c3"
+bright_cyan = "#d6d6d6"

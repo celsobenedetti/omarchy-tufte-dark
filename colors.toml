@@ -26,7 +26,7 @@ color6 = "#d6d6d6"   # T6 keywords, types
 color7 = "#fffcf0"   # T7 cream foreground
 
 # Bright colors (ANSI 8-15)
-color8 = "#303030"
+color8 = "#8c8273"
 color9 = "#f57f82"
 color10 = "#857b6f"
 color11 = "#a2a2a2"

@@ -7,9 +7,9 @@ mode = "dark"
 
 accent = "#f57f82"
 selection = "#6f8788"
-muted = "#303030"
+muted = "#7f7f7f"
 
-background = "#1a1006"
+background = "#110b04"
 dark_background = "#130c04"
 darker_background = "#0e0803"
 lighter_background = "#261809"
